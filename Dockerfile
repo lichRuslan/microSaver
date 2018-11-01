@@ -5,4 +5,4 @@ COPY . /usr/src/app
 RUN npm install
 
 EXPOSE 6080
-CMD [ "node", "microSaver/app.js" ]
+CMD [ "node", "app.js" ]
